@@ -1,1 +1,17 @@
-
+<xml>
+  <bug report>
+    <id>001</id>
+    <summary>Can't send the email. Button 'send' is inactive</summary>
+    <environment>PC Windows 10, Google Chrom v 101.0.4951.41</environment>
+    <precondisions>autorisation in email</precondisions>
+    <steps>
+      <step1>Push button 'write'</step1>
+      <step2>Insert receiver email in 'whom' field</step2>
+      <step3>Write the message</step3>
+      <step4>Push button 'send'</step4>
+    <expected result>The letter sent sucsessfully. Window shows the message 'send'</expected result>
+    <actual result>"Can't send the email. Button 'send' is inactive</actual result>
+    <priority>P1</priority>
+    <severity>S1</severity>
+    <assign>Email developer</assign>
+  </bug report>
