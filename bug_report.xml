@@ -10,7 +10,7 @@
       <step3>Write the message</step3>
       <step4>Push button 'send'</step4>
     <expected result>The letter sent sucsessfully. Window shows the message 'send'</expected result>
-    <actual result>"Can't send the email. Button 'send' is inactive</actual result>
+    <actual result>Can't send the email. Button 'send' is inactive</actual result>
     <priority>P1</priority>
     <severity>S1</severity>
     <assign>Email developer</assign>
