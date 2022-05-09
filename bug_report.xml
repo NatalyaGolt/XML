@@ -12,7 +12,7 @@
       <1>Letter window is opened</1>
       <2>Can add an adress</2>
       <3>Can write the message</3>
-      <4>The letter sent sucsessfully. Window shows the message 'send'</4>
+      <4>The letter sent sucsessfully. Window shows the message 'sent'</4>
      </expected_result>
     <actual_result>
       <1>Letter window is opened</1>
