@@ -1,15 +1,25 @@
   <bug_report>
     <id>001</id>
     <summary>Can't send the email. Button 'send' is inactive</summary>
-    <environment>PC Windows 10, Google Chrom v 101.0.4951.41</environment>
+    <environment>PC Windows 10, Google Chrome v 101.0.4951.41</environment>
     <precondisions>autorisation in email</precondisions>
     <steps>
       <step1>Push button 'write'</step1>
       <step2>Insert receiver email in 'whom' field</step2>
       <step3>Write the message</step3>
       <step4>Push button 'send'</step4>
-    <expected_result>The letter sent sucsessfully. Window shows the message 'send'</expected_result>
-    <actual_result>Can't send the email. Button 'send' is inactive</actual_result>
+    <expected_result>
+      <1>Letter window is opened</1>
+      <2>Can add an adress</2>
+      <3>Can write the message</3>
+      <4>The letter sent sucsessfully. Window shows the message 'send'</4>
+     </expected_result>
+    <actual_result>
+      <1>Letter window is opened</1>
+      <2>Can add an adress</2>
+      <3>Can write the message</3>
+      <4>Can't send the email. Button 'send' is inactive</4>
+    </actual_result>
     <priority>P1</priority>
     <severity>S1</severity>
     <assign>Email developer</assign>
